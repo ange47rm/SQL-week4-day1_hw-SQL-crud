@@ -94,3 +94,8 @@ INSERT INTO movies (title, year, show_time) VALUES ('Avengers: Infinity War', 20
 -- SELECT * FROM movies WHERE title = 'Iron Man 2';
 UPDATE movies SET show_time = '20:45' WHERE title = 'Iron Man 3';
 -- SELECT * FROM movies;
+
+-- Extensions:
+-- SELECT * FROM people;
+DELETE FROM people WHERE CAST(id AS INT) BETWEEN 0 AND 5;
+-- SELECT * FROM people;
